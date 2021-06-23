@@ -7,6 +7,8 @@ Run `pip install numcat` in your command prompt.
 ## Usage
 ```python
 from numcat import functions
+
+print(functions.concat(1.1,1.2))
 ```
 
 ## Rules & Defintion
@@ -15,5 +17,5 @@ Concatenation is the action of appending two or more objects usually strings or 
 1. The fractional and integer parts are concatenated seperately to one another
    1.1 concatenate 1.2 equals 11.12 
 
-print(functions.concat(1.1,2.2))
+print(functions.concat(1.1,1.2))
 ```
