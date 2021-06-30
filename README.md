@@ -12,10 +12,8 @@ print(functions.concat(1.1,1.2))
 ```
 
 ## Rules & Defintion
-Concatenation is the action of appending two or more objects usually strings or integers end-to-end.
+Concatenation is the action of appending two or more objects end-to-end
+to result in one singular number.
 
-1. The fractional and integer parts are concatenated seperately to one another
-   1.1 concatenate 1.2 equals 11.12 
-
-print(functions.concat(1.1,1.2))
-```
+1. The fractional and integer parts are concatenated independently to one another
+   for example: '1.1' concatenate '1.2' equals '11.12'
